@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    --primary-color: #FFD900;
+    --secondary-color: #514988;
+    --text-color: #f9f9f9;
+    --countdown-background-color: #303030;
+}
+
+header {
+    /* Manter o tamanho na página inteira */
+    width: 100%; 
+    height: 118px;
+
+    background-color: var(--primary-color);
+
+    display: flex;
+    align-items: center;
+}
+
+header .header-logo {
+    margin-left: 50px;
+}
+
+/* Sections */
+section .main-content {
+    background-color: var(--secondary-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 50px 50px;
+
+    width: 100%;
+    height: 600px;
+}
+
+section .main-content #main-content-title,
+section .main-content #main-content-subtitle {
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+section .main-content .main-content-texts h1 {
+    text-align: left;
+    font-size: 66px;
+    font-weight: 900;
+}
+
+section .main-content .main-content-texts h3 {
+    text-align: left;
+    font-size: 30px;
+}
+
+section .main-content .main-content-texts p {
+    margin-top: 20px;
+    font-size: 20px;
+
+    text-align: justify;
+
+    color: var(--text-color);
+    width: 678px;
+}
+
+/* CountDown Section */
+section .countdown-container {
+    text-align: center;
+    color: var(--secondary-color);
+
+    background-color: var(--primary-color);
+}
+
+section .countdown-container .countdown-title h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+
+    padding: 50px 50px 0px 50px;
+}
+
+section .countdown-container .countdown-timers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 200px;
+    text-align: center;
+
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    width: 100%;
+    padding: 50px
+}
+
+section .countdown-container .remaining-time h2 {
+    font-size: 90px;
+    font-weight: 900;
+
+    margin-bottom: 10px;
+}
+
+section .countdown-container .remaining-time p {
+    font-size: 20px;
+    font-weight: 600;
+    
+    margin-bottom: 10px;
+}
+
+/* Buy Tickets Section */
+section .buy-ticket {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 50px 50px;
+
+    background-color: var(--countdown-background-color);
+    color: var(--text-color);
+
+    text-align: center;
+}
+
+section .buy-ticket .buy-ticket-title h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+section .buy-ticket #buy-btn {
+    border: 0;
+    padding: 20px 50px;
+
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    font-size: 24px;
+    font-weight: 700;
+
+    border-radius: 12px;
+    margin-top: 50px;
+
+    opacity: .9;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+section .buy-ticket #buy-btn:hover {
+    transform: translateY(-4%);
+    opacity: 1;
+
+}

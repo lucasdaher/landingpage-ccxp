@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page | CCXP</title>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="assets/ccxp.svg">
+        </div>
+    </header>
+    
+    <section>
+        <div class="main-content">
+            <div class="main-content-texts">
+                <h1 id="main-content-title">Reviva o Épico</h1>
+                <h3 id="main-content-subtitle">De 01 a 04 de Dezembro</h3>
+                <p>Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de
+                    2023, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se
+                    para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras
+                    épicas a cada passo pelos nossos corredores.</p>
+            </div>
+            <div class="main-content-video">
+                <video controls loop autoplay width="600px">
+                    <source src="assets/Arlequina.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+        </div>
+    </section>
+
+    <section>
+        <div class="countdown-container">
+            <div class="countdown-title">
+                <h1>Tempo restante para a maior CCXP de todos os tempos!</h1>
+            </div>
+
+            <div class="countdown-timers">
+                <div class="remaining-time">
+                    <h2 id="days">00</h2>
+                    <p>Dias</p>
+                </div>
+                <div class="remaining-time">
+                    <h2 id="hours">00</h2>
+                    <p>Horas</p>
+                </div>
+                <div class="remaining-time">
+                    <h2 id="minutes">00</h2>
+                    <p>Minutos</p>
+                </div>
+                <div class="remaining-time">
+                    <h2 id="seconds">00</h2>
+                    <p>Segundos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="buy-ticket">
+            <div class="buy-ticket-title">
+                <h1>Garanta a sua presença na CCXP22!</h1>
+            </div>
+            <div class="buy-ticket-images">
+                <img src="assets/tickets/ticket01.svg">
+                <img src="assets/tickets/ticket02.svg">
+                <img src="assets/tickets/ticket03.svg">
+                <img src="assets/tickets/ticket04.svg">
+            </div>
+            <button id="buy-btn">Comprar agora</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
