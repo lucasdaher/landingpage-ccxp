@@ -1,2 +1,2 @@
 # Landing Page CCXP22
-Esta é uma landing page feita para estudo.
+Esta página foi desenvolvida para estudos utilizando HTML, CSS e JavaScript.
